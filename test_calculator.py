@@ -11,3 +11,8 @@ def test_throw_error_if_not_number():
 def test_return_0():
     res = add(0, 0)
     assert res == 0
+
+
+def test_return_1():
+    res = add(1, 0)
+    assert res == 1
