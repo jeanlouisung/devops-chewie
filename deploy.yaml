@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devopsdeployname
+  name: devopsdeploy
 spec:
   replicas: 3
   selector:
@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: calc
-        image: ghcr.io/jeanlouisung/calc:1.0.2
+        image: nginx
