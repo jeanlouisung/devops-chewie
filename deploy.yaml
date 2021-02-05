@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: calc
-        image: nginx
+        image: ghcr.io/jeanlouisung/calc:1.0.2
